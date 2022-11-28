@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+<style>
+@font-face {
+    font-family: 'tesla'; /*a name to be used later*/
+    src: url(/public/fonts/Debrosee-ALPnL.ttf);
+}
+p {
+    font-family: 'tesla';
+}
+</style>
+</head>
+<body>
+    <p id="demo" style="text-align: center; margin-top: 220px; color:#e61134 "></p>
+    <img src="tesla.png" style="width:150px; display: block; margin-left: auto; margin-right: auto;" >
+    <script>
+        // function person(first_name,last_name){
+        //     this.first_name = first_name;
+        //     this.last_name = last_name;
+        // }
+        // let person2 = new person('Becca','Mak');
+        // console.log("First name: " + person2.first_name + ", Last name: " +  person2.last_name);
+
+        // const coder = {
+        //     isStudying : false,
+        //     printIntroduction : function(){
+        //         if (this.isStudying == true){
+        //             console.log("Yes.")
+        //         }else{
+        //             console.log("No.")
+        //         }
+        //         console.log("My name is " + this.name + ". Am I studying? " + this.isStudying)
+        //     }
+        // }
+        // const me = Object.create(coder);
+        // me.name = 'Becca';
+        // me.isStudying = true;
+        // me.printIntroduction();
+        
+        // function Vehicle(name,maker,engine){
+        //     this.name = name,
+        //     this.maker = maker,
+        //     this.engine = engine
+        //     // this.getDetails = function(){
+        //     //     console.log('The name of the bike is '+ this.name);
+        //     // }
+        // };
+        
+        // Vehicle.prototype.getDetails = function(){
+        //     console.log('The name of the bike is '+ this.name);
+        // }
+        
+        // let bike1 = new Vehicle('Hayabusa','Suzuki','1340cc');
+        
+        // console.log(bike1.name);
+        // console.log(bike1.getDetails());
+        
+        // function Person(name, age, cars) {
+        //     this.name= name,
+        //     this.age = age,
+        //     this.cars = cars,
+        //     this.getPersonInfo = function(){
+        //         console.log(this.name + " is " + this.age + " years old and has ");
+        //     }
+        // }
+
+        // function Car(make, model, year) {
+        //     this.make= make,
+        //     this.model = model,
+        //     this.year = year,
+        //     this.getCarInfo = function(){
+        //         console.log(this.make + " Model " + this.model + " released in " + this.year);
+        //     }
+        // }
+        
+        // let tom = new Person("Tom", 24)
+        // let bill = new Car("Tesla", "S", 2015)
+        // tom.getPersonInfo()
+        // bill.getCarInfo()
+
+        // function Car(make, model, year) {
+        //     this.make = make;
+        //     this.model = model;
+        //     this.year = year;
+        //     this.getCarInfo = function () {
+        //         console.log(this.make + " Model " + this.model + " released in " + this.year);
+        //     };
+        // }
+
+        // function Person(name, age, make, model, year) {
+        //     Car.call(this, make, model, year);
+        //     this.name = name;
+        //     this.age = age;
+        //     this.getPersonInfo = function () {
+        //         console.log(this.name + " is " + this.age + " years old and has " + 
+        //         this.getCarInfo);
+        //     };
+        // }
+        // Person.prototype = Object.create(Car.prototype);
+
+        // let tom = new Person("Tom", 24, "Tesla", "S", 2015);
+        // tom.getPersonInfo();
+
+        class Car{
+            constructor(make, model, year){
+                this.make = make;
+                this.model = model;
+                this.year = year;
+            }
+            toString(){
+                return this.make + " Model " + this.model + " released in " + this.year
+            }
+        }
+
+        class Person extends Car{
+            constructor(make, model, year, name, age){
+                super(make, model, year);
+                this.name = name;
+                this.age = age;
+            }
+            toString(){
+                return (this.name + " is " + this.age + " years old and has " +  super.toString());
+            }
+        }
+
+        let tom = new Person('Tesla','S',2015,'Tommy',24);
+        console.log(tom.toString());
+
+        document.getElementById("demo").innerHTML =  tom.toString();
+    </script>
+</body>
