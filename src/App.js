@@ -1,16 +1,17 @@
 import React from "react";
-import "./styles.css";
 
-import Header from "./components/header/Header";
-import Main from "./components/main/Main";
-import Footer from "./components/footer/Footer";
+import Header from "./components/Header"
+import Banner from "./components/Banner"
+import Banner2 from "./components/Banner2"
 
 export default function App() {
   return (
     <div className="App">
-      <Header title="My header" subtitle="subtitle2" />
-      {/* <Main message="My content" /> */}
-      <Footer note="Footer Note" />
+      <Header/>
+      <Banner/>
+      <Banner2/>
+      {/*<ShoppingList name="mark"/>*/}
     </div>
+
   );
 }
