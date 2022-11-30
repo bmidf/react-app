@@ -33,6 +33,10 @@ code {
   font-family: 'glace'; 
   src: url(/public/fonts/Fontspring-DEMO-glancesans-regular.otf);
 } 
+@font-face {
+  font-family: 'bergen'; 
+  src: url(/public/fonts/BergenSans-SemiBold.otf);
+} 
 
 /* REUSABLE */
 .flex {
@@ -180,18 +184,241 @@ code {
 /* BANNER 2*/
 
 .banner2_container{
-  height: 300px;
+  height: 260px;
+  width: 100%;
   background-color: #ed5c01;
 }
 .image_banner2{
+  height: 260px;
+  display: flex;
   width: 30%;
-  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.img45{
+  width: 220px;
+}
+.allDogs{
+  height: 260px;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .dogs{
-  width: 70%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dogs2{
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rabbit{
+  width: 90px;
+  height: 80px;
+  opacity: 0.7;
+  border-width: 3px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #aa4100;
+}
+.rabbit:hover{
+  opacity: 1;
+}
+.oneDog{
+  height: 260px;
+  width: 15%;
+}
+.textDogs{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.middleImage{
+  height: 140px;
+  display: flex;
+  justify-content: center;
+}
+.middleDogImg{
+  width: 140px;
+  height: 135px;
+  border-width: 4px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
 }
 
-/* MOBILE */
+/* BANNER 3 */
+
+.banner3{
+  height: 550px;
+  width: 100%;
+  background-color: #ebe3cc;
+}
+.ourService{
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 100px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebe3cc;
+}
+.ourService p{
+  font-size: 20px;
+  color: #062d3e;
+}
+.flexF{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.parallelogram {
+	width: 40%;
+	height: 400px;
+	transform: skew(-13deg);
+	background-color: #ebe3cc;
+  border-radius: 50px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parallelogram:hover{
+  background-color: #fbbd08;
+  border-color: #ebe3cc;
+}
+.parallelogram2 {
+	width: 40%;
+	height: 400px;
+	transform: skew(-13deg);
+	background-color: #ebe3cc;
+  border-radius: 50px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parallelogram2:hover{
+  background-color: #fbbd08;
+  border-color: #ebe3cc;
+}
+.explore_button{
+  background-color: inherit;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-style: solid;
+  border-color: #062d3e;
+  cursor: pointer;
+  display: inline-block;
+  color: #062d3e;
+  border-radius: 60px;
+  display: flex;
+  align-items: left;
+}
+.explore_button:hover {
+  background-color: #062d3e;
+  color: white;
+}
+.explore{
+  transform: skew(13deg);
+}
+.sourceP{
+  font-family: sans-serif;
+  width: 430px;
+  color: #062d3e;
+  text-align: left;
+}
+.sourcePh{
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 430px;
+  color: #062d3e;
+  text-align: left;
+}
+.sourceImage{
+  background-color: #fbbd08;
+  width: 90px;
+  height: 80px;
+  border-width: 3px;
+  border-radius: 50%;
+  display: flex;
+  align-items: left;
+}
+.sourceImage:hover{
+  background-color: #ebe3cc;
+}
+
+/* FOOTER */
+
+.footer{
+  height: 260px;
+  width: 100%;
+  background-color: #062d3e;
+  font-family: 'bergen';
+}
+.footerText{
+  height: 260px;
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color:#ed5c01
+}
+.free{
+  height: 260px;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerColumn{
+  display: flex;
+  flex-direction: column;
+}
+.footerThings{
+  height: 130px;
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+}
+.footer_button{
+  font-family: 'bergen';
+  border: none;
+  background-color: inherit;
+  padding: 11px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border-radius: 60px;
+}
+.footer_button:hover{
+  color: #ed5c01;
+}
+.otherFooterThings{
+  display: flex;
+  align-items: left;
+}
+/*===================================================================================================================
+========================================================MOBILE=======================================================
+=====================================================================================================================*/
+
 @media screen and (max-width: 1000px) {
   .box1 {
     font-size: 45px;
@@ -259,6 +486,51 @@ code {
     display: none;
   }
   .middle{
+    display: none;
+  }
+  .allDogs{
+    display: none;
+  }
+  .image_banner2{
+    height: 300px;
+    width: 50%;
+  }
+  .oneDog{
+    height: 400px;
+    width: 50%;
+  }
+  .img45{
+    width: 150px;
+  }
+  .ourService{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .explore{
+    width: 120px;
+    transform: skew(0deg);
+  }
+
+  .sourceImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sourceP {
+    width: 120px;
+    font-size: 13px;
+  }
+  .sourcePh{
+    width: 120px;
+  }
+  .parallelogram{
+    width: 200px;
+  }
+  .parallelogram{
+    transform: skew(0deg);
+  }
+  .parallelogram2{
     display: none;
   }
 }
