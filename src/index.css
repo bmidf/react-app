@@ -422,6 +422,96 @@ code {
   display: flex;
   align-items: left;
 }
+
+/* BANNER 4 */
+
+.banner4{
+  height: 240px;
+  width: 100%;
+  background-color: #ebe3cc;
+}
+.banner4_1{
+  width: 50%;
+  height: 240px;
+  background-color: #fbbd08;
+
+}
+.banner4_2{
+  width: 50%;
+  height: 240px;
+  background-color: #ed5c01;
+  flex-direction: column;
+}
+.footer_dog{
+  display: flex;
+  height: 240px;
+  width: 100%;
+  color:#062d3e;
+  justify-content: center;
+  align-items:flex-end;
+}
+.footerDog{
+  display: flex;
+  height: 90%;
+  color:#062d3e;
+  align-items: center;
+  justify-content: center;
+  /*background-image: url(./assets/images/mous.png);*/
+}
+
+.emailText{
+  font-size: 25px;
+  font-family: 'bergen';
+  height: 120px;
+  display: flex;
+  width: 100%;
+  color:#062d3e;
+  align-items: center;
+  justify-content: center;
+}
+.inputMail{
+  font-size: 25px;
+  font-family: 'bergen';
+  height: 120px;
+  display: flex;
+  width: 100%;
+  color:#062d3e;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #ebe3cc;
+  background-color: inherit;
+  height: 50px;
+  width: 75%;
+}
+.inputMail2{
+    padding-right: 33px;
+    background: url(./assets/images/arrow-right.png) no-repeat right;
+    background-size: 20px;
+}
+input[type="text"]{
+    font-size:24px;
+    color: #ebe3cc;
+}
+input:focus {
+  border-color: #062d3e
+}
+::placeholder { 
+  font-size: 22px;
+  color: #ebe3cc;
+  opacity: 0.8; 
+}
+::placeholder:focus { 
+  color: #062d3e;
+  opacity: 0; 
+}
+input:focus::placeholder {
+  color: transparent;
+}
+
 /*===================================================================================================================
 ========================================================MOBILE=======================================================
 =====================================================================================================================*/
