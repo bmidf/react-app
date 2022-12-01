@@ -533,4 +533,20 @@ code {
   .parallelogram2{
     display: none;
   }
+  .free{
+    display: none;
+  }
+  .footerText{ 
+    display: none;
+  }
+  .footerColumn{
+    width: 200px;
+  }
+  .footerThings{
+    width: 10px;
+    font-size: 5px;
+  }
+  .footer_button{
+    width: 5px;
+  }
 }
