@@ -17,6 +17,7 @@ code {
   position: relative;
   height: 100vh;
   background-image: url(../public/assets/images/1Banner.png);
+  color: #ebe3cc;
 }
 
 /* FONTS */
@@ -434,7 +435,6 @@ code {
   width: 50%;
   height: 240px;
   background-color: #fbbd08;
-
 }
 .banner4_2{
   width: 50%;
@@ -452,7 +452,7 @@ code {
 }
 .footerDog{
   display: flex;
-  height: 90%;
+  height: 270px;
   color:#062d3e;
   align-items: center;
   justify-content: center;
@@ -548,6 +548,16 @@ input:focus::placeholder {
   .sourceP {
     width: 80%;
     font-size: 13px;
+  }
+  .sourcePh {
+    width: 80%;
+    font-size: 13px;
+  }
+  .parallelogram{
+    width: 36%;
+  }
+  .parallelogram2{
+    width: 36%;
   }
   .middle{
     display: none;
@@ -653,7 +663,7 @@ input:focus::placeholder {
     width: 100%;
   }
   .footerThings{
-    width: 10px;
+    width: 20px;
     font-size: 5px;
     display: flex;
     align-items: center;
@@ -663,7 +673,9 @@ input:focus::placeholder {
     align-items: center;
   }
   .footer_button{
-    width: 5px;
+    width: 50px;
+    display: flex;
+    align-items: center;
     font-size: 12px;
   }
 

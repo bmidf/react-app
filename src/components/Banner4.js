@@ -12,7 +12,7 @@ const Banner4 =()=>{
                 </div>
                 <div className='banner4_2'>
                     <div className='emailText'>
-                        <a>Subscribe & Get Pet Update and News</a>
+                        <p>Subscribe & Get Pet Update and News</p>
                     </div>
                     <div className='inputMail'>
                         <input className='inputMail2'type="text" name="name" placeholder='Mail' />
