@@ -330,10 +330,6 @@ code {
   display: flex;
   align-items: left;
 }
-.explore_button:hover {
-  background-color: #062d3e;
-  color: white;
-}
 .explore{
   transform: skew(13deg);
 }
@@ -359,8 +355,19 @@ code {
   display: flex;
   align-items: left;
 }
-.sourceImage:hover{
+.parallelogram:hover .sourceImage {
   background-color: #ebe3cc;
+}
+.parallelogram2:hover .sourceImage {
+  background-color: #ebe3cc;
+}
+.parallelogram:hover .explore_button {
+  background-color: #062d3e;
+  color: white;
+}
+.parallelogram2:hover .explore_button {
+  background-color: #062d3e;
+  color: white;
 }
 
 /* FOOTER */
@@ -445,12 +452,22 @@ code {
   .middle{
     width: 33%;
   }
+  .explore{
+    width: 70%;
+  }
+  .sourceP {
+    width: 80%;
+    font-size: 13px;
+  }
+  .middle{
+    display: none;
+  }
 }
-
 @media screen and (min-width: 601px) {
   .box1 {
     font-size: 60px;
   }
+  
   .box2 {
     font-size: 60px;
   }
@@ -460,7 +477,6 @@ code {
   .arrow{
     width: 70px;
   }
-
 }
 @media screen and (max-width: 600px) {
   .box1 {
@@ -539,14 +555,26 @@ code {
   .footerText{ 
     display: none;
   }
+  .footer{
+    height: 100px;
+  }
   .footerColumn{
-    width: 200px;
+    height: 100px;
+    width: 100%;
   }
   .footerThings{
     width: 10px;
     font-size: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .otherFooterThings{
+    display: flex;
+    align-items: center;
   }
   .footer_button{
     width: 5px;
+    font-size: 12px;
   }
+
 }

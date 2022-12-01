@@ -27,12 +27,14 @@ const Banner3 =()=>{
                     </div>
                     <div className="parallelogram2">
                         <div className='explore'>
-                            <img src={scissors} className="sourceImage" alt="sourceImage"/>
-                            <p className='sourcePh'>Breed-specific Haircuts</p>
-                            <p className='sourceP'>Regular grooming is essential to your pet’s
-                                health as it helps prevent skin issues such as matting.
-                            </p>
-                            <button className='explore_button'>Explore</button>
+                            <div className='exploreR'>
+                                <img src={scissors} className="sourceImage" alt="sourceImage"/>
+                                <p className='sourcePh'>Breed-specific Haircuts</p>
+                                <p className='sourceP'>Regular grooming is essential to your pet’s
+                                    health as it helps prevent skin issues such as matting.
+                                </p>
+                                <button className='explore_button'>Explore</button>
+                            </div>
                         </div>
                     </div>
                 </div>
