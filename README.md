@@ -1,3 +1,3 @@
-# !Some react projects.
+# Some react projects.
 
 ## **GITA/COMM-SCHOOL | REACT COURSE**
