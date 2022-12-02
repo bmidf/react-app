@@ -20,7 +20,7 @@ code {
   color: #ebe3cc;
 }
 
-/* FONTS */
+/* FONTS lol */
 
 @font-face {
   font-family: 'gothic'; 
@@ -392,7 +392,7 @@ code {
   height: 260px;
   width: 10%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .footerColumn{
@@ -512,6 +512,22 @@ input:focus::placeholder {
   color: transparent;
 }
 
+/* BANNER 5 */
+
+.banner5{
+  height: 500px;
+  width: 100%;
+  background-color: #189cab;
+}
+.easy_pet{
+  width: 50%;
+  height: 250px;
+}
+.easy_pet_text{
+  width: 50%;
+  height: 250px;
+  flex-direction: column;
+}
 /*===================================================================================================================
 ========================================================MOBILE=======================================================
 =====================================================================================================================*/

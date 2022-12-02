@@ -2,6 +2,7 @@
 import React from 'react' 
 import { BsFacebook, BsInstagram } from "react-icons/bs/";
 import { AiFillTwitterCircle } from "react-icons/ai/";
+import lines from '../assets/images/lines.png'
 
 // eslint-disable-next-line no-lone-blocks
 const Footer =()=>{{
@@ -12,6 +13,7 @@ const Footer =()=>{{
                     <a>Pet-First</a>
                 </div>
                 <div className='free'>
+                    <img src={lines} className="lines" alt="lines"/>
                 </div>
                 <div className='footerColumn'>
                     <div className='footerThings'>

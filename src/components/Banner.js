@@ -19,7 +19,7 @@ const Banner =()=>{
                         </div>
                         <div className="text_first">
                             <p className="pet-first">A PET FIRST</p>
-                            <p>APPROACH TO</p>
+                            <p className="approach">APPROACH TO</p>
                             <p className="wellness">WELLNESS</p>
                         </div>
                         <button className="learnMoreButton">Learn More</button>

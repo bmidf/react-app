@@ -4,6 +4,7 @@ import Banner from "./components/Banner"
 import Banner2 from "./components/Banner2"
 import Banner3 from "./components/Banner3"
 import Banner4 from "./components/Banner4"
+import Banner5 from "./components/Banner5"
 import Footer from "./components/Footer"
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Banner/>
       <Banner2/>
       <Banner3/>
+      {/* <Banner5/> */}
       <Banner4/>
       <Footer/>
     </div>
