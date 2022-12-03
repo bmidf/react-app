@@ -10,7 +10,7 @@ import goat from '../assets/images/goat.jpg'
 import hamster from '../assets/images/hamster.jpg' 
 import parrot from '../assets/images/parrot.jpg' 
 
-const Banner2 =()=>{
+const Dogs =()=>{
     return (
         <div className='banner2_container'>
             <div className='flex'>
@@ -41,4 +41,4 @@ const Banner2 =()=>{
         </div>
     );
 }
-export default Banner2
+export default Dogs

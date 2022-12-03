@@ -1,22 +1,17 @@
 import React from "react";
-import Header from "./components/Header"
-import Banner from "./components/Banner"
-import Banner2 from "./components/Banner2"
-import Banner3 from "./components/Banner3"
-import Banner4 from "./components/Banner4"
-import Banner5 from "./components/Banner5"
-import Footer from "./components/Footer"
+// import Header from "./pet-first-components/Header"
+// import Main from "./pet-first-components/Main"
+// import Dogs from "./pet-first-components/Dogs"
+// import Service from "./pet-first-components/Service"
+// import Parent from "./components/Parent"
+// import Mail from "./pet-first-components/Mail"
+// import Footer from "./components/Footer"
+import MovieApiTest from "./movie-api-test/MovieApiTest"
 
 export default function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Banner/>
-      <Banner2/>
-      <Banner3/>
-      {/* <Banner5/> */}
-      <Banner4/>
-      <Footer/>
+    <div className="MovieApi">
+      <MovieApiTest/>
     </div>
   );
 }

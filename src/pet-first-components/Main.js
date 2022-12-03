@@ -7,7 +7,7 @@ import dog2 from '../assets/images/dog2.png'
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 
-const Banner =()=>{
+const Main =()=>{
     return (
         <div className='container'>
             <div className='flex'>
@@ -45,4 +45,4 @@ const Banner =()=>{
         </div>
     )
 }
-export default Banner
+export default Main

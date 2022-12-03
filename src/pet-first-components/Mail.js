@@ -1,7 +1,7 @@
 import React from 'react'
 import footerDog from '../assets/images/footerDog.png' 
 
-const Banner4 =()=>{
+const Mail =()=>{
     return (
         <div className='banner4'>
             <div className='flex'>
@@ -23,4 +23,4 @@ const Banner4 =()=>{
     );
 }
 
-export default Banner4
+export default Mail

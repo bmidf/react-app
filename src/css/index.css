@@ -10,33 +10,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.App {
+/* MAIN DIV */
+.pet-first-App {
   font-family: 'gothic';
   text-align: center;
   position: relative;
   height: 100vh;
-  background-image: url(../public/assets/images/1Banner.png);
+  background-image: url(../../public/assets/images/1Banner.png);
   color: #ebe3cc;
 }
 
-/* FONTS lol */
+/* FONTS */
 
 @font-face {
   font-family: 'gothic'; 
-  src: url(/public/fonts/GOTHIC.TTF);
+  src: url(../../public/fonts/GOTHIC.TTF);
 }
 @font-face {
   font-family: 'glaceRegular'; 
-  src: url(/public/fonts/Fontspring-DEMO-glancesans-bold.otf);
+  src: url(../../public/fonts/Fontspring-DEMO-glancesans-bold.otf);
 }
 @font-face {
   font-family: 'glace'; 
-  src: url(/public/fonts/Fontspring-DEMO-glancesans-regular.otf);
+  src: url(../../public/fonts/Fontspring-DEMO-glancesans-regular.otf);
 } 
 @font-face {
   font-family: 'bergen'; 
-  src: url(/public/fonts/BergenSans-SemiBold.otf);
+  src: url(../../public/fonts/BergenSans-SemiBold.otf);
 } 
 
 /* REUSABLE */
@@ -222,11 +222,10 @@ code {
 .rabbit{
   width: 90px;
   height: 80px;
-  opacity: 0.7;
+  opacity: 0.6;
+  position: absolute;
   border-width: 3px;
   border-radius: 50%;
-  border-style: solid;
-  border-color: #aa4100;
 }
 .rabbit:hover{
   opacity: 1;
@@ -479,7 +478,7 @@ code {
   align-items: center;
   justify-content: center;
 }
-input{
+.inputMail input{
   outline: 0;
   border-width: 0 0 2px;
   border-color: #ebe3cc;
@@ -489,7 +488,7 @@ input{
 }
 .inputMail2{
     padding-right: 33px;
-    background: url(./assets/images/arrow-right.png) no-repeat right;
+    background: url(../assets/images/arrow-right.png) no-repeat right;
     background-size: 20px;
 }
 input[type="text"]{
@@ -521,13 +520,90 @@ input:focus::placeholder {
 }
 .easy_pet{
   width: 50%;
-  height: 250px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.easy_pet_image{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.parent{
+  width: 100%;
+}
+.parent:hover{
+  opacity: 0.7;
 }
 .easy_pet_text{
   width: 50%;
-  height: 250px;
+  height: 500px;
   flex-direction: column;
 }
+.pet_parent{
+  font-size: 33px;
+  font-family: 'bergen';
+  display: flex;
+  width: 69%;
+  color:white;
+  text-align: left;
+}
+.pet_parent_desc{
+  width: 69%;
+  font-size: 16px;
+  font-family: 'bergen';
+  color:white;
+  text-align: left;
+  display: flex;
+  align-items: left;
+}
+.pet_parent_list{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: 'bergen';
+}
+label{
+  margin-top: 10px;
+}
+.checkMark{
+  margin: 3px;
+}
+.pet_parent_list .checkMark:before {
+  width: 69%;
+	background-color: #189cab;
+}
+.pet_parent_button{
+  margin-top: 20px;
+  border: none;
+  background-color: #062d3e;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: white;
+  border-radius: 60px;
+  display: flex;
+  align-items: left;
+}
+.pet_parent_button:hover{
+  border: none;
+  background-color: inherit;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #fbbd08;
+  cursor: pointer;
+  color: #062d3e;
+  border-radius: 60px;
+  display: flex;
+  align-items: left;
+}
+
+
+
 /*===================================================================================================================
 ========================================================MOBILE=======================================================
 =====================================================================================================================*/
@@ -583,7 +659,6 @@ input:focus::placeholder {
   .box1 {
     font-size: 60px;
   }
-  
   .box2 {
     font-size: 60px;
   }
@@ -592,7 +667,7 @@ input:focus::placeholder {
   }
   .arrow{
     width: 70px;
-  }
+  }  
 }
 @media screen and (max-width: 600px) {
   .box1 {
@@ -643,7 +718,6 @@ input:focus::placeholder {
     width: 120px;
     transform: skew(0deg);
   }
-
   .sourceImage{
     display: flex;
     align-items: center;
@@ -694,5 +768,4 @@ input:focus::placeholder {
     align-items: center;
     font-size: 12px;
   }
-
 }

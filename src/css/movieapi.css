@@ -1,0 +1,47 @@
+.movies_container{
+    background-color: rgb(86, 228, 247);
+}
+.movies_box{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    border-style: solid;
+    border-radius: 120px;
+    background-color: rgb(231, 198, 90);
+    border-color: rgb(109, 90, 27);
+    margin: 0px 0px 25px 0px;
+}
+.movies_poster_image{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movies_poster{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movies_title_container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding:  0px 20px 0px 0px;
+}
+.movies_title{
+    font-size: 25px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.movies_overview{
+    background-image: linear-gradient(to left,indigo, blue, green,red);   
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+    font-weight: bold;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import headphone from '../assets/images/headphone.png' 
 import scissors from '../assets/images/sciss.png' 
 
-const Banner3 =()=>{
+const Service =()=>{
     return (
         <div className='banner3'>
             <div className='ourService'>
@@ -42,4 +42,4 @@ const Banner3 =()=>{
         </div>
     );
 }
-export default Banner3
+export default Service
