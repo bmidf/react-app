@@ -28,7 +28,15 @@ function MovieApiTest() {
                     </div>
                     <div className='movies_title_container'>
                       <div className="movies_title">
-                        <p>{item.original_title}</p>
+                        <div className="movies_title_N">
+                          <p>{item.original_title}</p>
+                        </div>
+                        <div className="movies_rating">
+                          <p>{item.vote_average}</p>
+                        </div>
+                      </div>
+                      <div className="movies_release_date">
+                        <p>{item.release_date}</p>
                       </div>
                       <div className="movies_overview">
                         <p>{item.overview}</p>
