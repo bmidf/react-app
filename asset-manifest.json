@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.c2cc5308.css",
+    "main.css": "/react-app/static/css/main.65ecb62b.css",
     "main.js": "/react-app/static/js/main.9bae52c9.js",
     "static/media/pexels-mohamed-sarim-1033729.jpg": "/react-app/static/media/pexels-mohamed-sarim-1033729.406c8c335023444a138f.jpg",
     "static/media/GOTHIC.TTF": "/react-app/static/media/GOTHIC.b194aa2bd524e2c973f7.TTF",
@@ -9,11 +9,11 @@
     "static/media/Fontspring-DEMO-glancesans-bold.otf": "/react-app/static/media/Fontspring-DEMO-glancesans-bold.6016c42caaca34be4949.otf",
     "static/media/Fontspring-DEMO-glancesans-regular.otf": "/react-app/static/media/Fontspring-DEMO-glancesans-regular.c14c5744ed9c34a973cf.otf",
     "index.html": "/react-app/index.html",
-    "main.c2cc5308.css.map": "/react-app/static/css/main.c2cc5308.css.map",
+    "main.65ecb62b.css.map": "/react-app/static/css/main.65ecb62b.css.map",
     "main.9bae52c9.js.map": "/react-app/static/js/main.9bae52c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cc5308.css",
+    "static/css/main.65ecb62b.css",
     "static/js/main.9bae52c9.js"
   ]
 }
