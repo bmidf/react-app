@@ -1,6 +1,43 @@
 .movies_container{
     background: url(../assets/pexels-mohamed-sarim-1033729.jpg) no-repeat center fixed; 
 }
+.movies_container a{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movies_search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 20px 20px;
+    flex-direction: row;
+}
+.movies_search input{
+    font-size: 25px;
+    outline: 0;
+    border-width: 0 0 2px;
+    color:black;
+    border-color: black;
+    background-color: inherit;
+    height: 50px;
+    width: 75%;
+}
+.movies_search button{
+    width: 20%;
+    height: 55px;
+    font-size: 25px;
+    background-color: inherit;
+    border-radius: 50px;
+    border-color:rgb(228, 21, 228);
+    color:rgb(228, 21, 228);
+}
+.movies_search button:hover{
+    background-color:rgb(252, 200, 105);
+}
 .movies_box{
     display: flex;
     width: 100%;

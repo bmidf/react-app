@@ -6,10 +6,11 @@ import dog1 from '../assets/images/dog1.png'
 import dog2 from '../assets/images/dog2.png' 
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
+import Container from '@mui/material/Container';
 
 const Main =()=>{
     return (
-        <div className='container'>
+        <Container>
             <div className='flex'>
                 <div className="box1">
                     <div className="box33">  
@@ -42,7 +43,7 @@ const Main =()=>{
                     </Slide>
                 </div>
             </div> 
-        </div>
+        </Container>
     )
 }
 export default Main
