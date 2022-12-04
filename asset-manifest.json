@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0984b098.css",
-    "main.js": "/static/js/main.9bae52c9.js",
-    "static/media/pexels-mohamed-sarim-1033729.jpg": "/static/media/pexels-mohamed-sarim-1033729.406c8c335023444a138f.jpg",
-    "static/media/GOTHIC.TTF": "/static/media/GOTHIC.b194aa2bd524e2c973f7.TTF",
-    "static/media/1Banner.png": "/static/media/1Banner.e47c6d985b48e62afff7.png",
-    "static/media/BergenSans-SemiBold.otf": "/static/media/BergenSans-SemiBold.32d87abd17e95555a5b6.otf",
-    "static/media/Fontspring-DEMO-glancesans-bold.otf": "/static/media/Fontspring-DEMO-glancesans-bold.6016c42caaca34be4949.otf",
-    "static/media/Fontspring-DEMO-glancesans-regular.otf": "/static/media/Fontspring-DEMO-glancesans-regular.c14c5744ed9c34a973cf.otf",
-    "index.html": "/index.html",
-    "main.0984b098.css.map": "/static/css/main.0984b098.css.map",
-    "main.9bae52c9.js.map": "/static/js/main.9bae52c9.js.map"
+    "main.css": "/react-app/static/css/main.c2cc5308.css",
+    "main.js": "/react-app/static/js/main.9bae52c9.js",
+    "static/media/pexels-mohamed-sarim-1033729.jpg": "/react-app/static/media/pexels-mohamed-sarim-1033729.406c8c335023444a138f.jpg",
+    "static/media/GOTHIC.TTF": "/react-app/static/media/GOTHIC.b194aa2bd524e2c973f7.TTF",
+    "static/media/1Banner.png": "/react-app/static/media/1Banner.e47c6d985b48e62afff7.png",
+    "static/media/BergenSans-SemiBold.otf": "/react-app/static/media/BergenSans-SemiBold.32d87abd17e95555a5b6.otf",
+    "static/media/Fontspring-DEMO-glancesans-bold.otf": "/react-app/static/media/Fontspring-DEMO-glancesans-bold.6016c42caaca34be4949.otf",
+    "static/media/Fontspring-DEMO-glancesans-regular.otf": "/react-app/static/media/Fontspring-DEMO-glancesans-regular.c14c5744ed9c34a973cf.otf",
+    "index.html": "/react-app/index.html",
+    "main.c2cc5308.css.map": "/react-app/static/css/main.c2cc5308.css.map",
+    "main.9bae52c9.js.map": "/react-app/static/js/main.9bae52c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0984b098.css",
+    "static/css/main.c2cc5308.css",
     "static/js/main.9bae52c9.js"
   ]
 }
