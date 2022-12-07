@@ -5,9 +5,9 @@ const OpenAI = () => {
   const [userInput, setUserInput] = useState("");
 
   const generateImage = async () => {
-    const API_KEY = "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";
-    
-    const response = await fetch(`https://api.openai.com/v1/images/generations`,
+    const API_KEY = '';
+    const response = await fetch(
+      `https://api.openai.com/v1/images/generations`,
       {
         method: "POST",
         headers: {

@@ -1,7 +1,6 @@
 import React from "react";
 
-//import OpenAI from "./openai";
-import ECommerce from './ecomm/components/ECommerce'
+import ECommerce from "./ecomm/components/ECommerce";
 // import Header from "./pet-first-components/Header"
 // import Main from "./pet-first-components/Main"
 // import Dogs from "./pet-first-components/Dogs"
@@ -10,6 +9,7 @@ import ECommerce from './ecomm/components/ECommerce'
 // import Mail from "./pet-first-components/Mail"
 // import Footer from "./components/Footer"
 // import MovieApiTest from "./movie-api-test/MovieApiTest"
+
 
 export default function App() {
   return (
