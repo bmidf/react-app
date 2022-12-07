@@ -10,6 +10,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.openAiApp{
+  background-color: #ebe3cc;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.openAiApp__header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  background-color: #ebe3cc;
+}
+.openAiApp button{
+  background-color: #ba01d3;
+  margin: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.openAiApp button:hover{
+  background-color: #0173a3;
+}
+.openAiApp input{
+  font-size: 20px;
+  margin-top: 10px;
+  width: 30%;
+  height: 50px;
+  color:#062d3e;
+  background-color: inherit;
+  border-style: solid;
+  outline: 0;
+}
+.openAiApp img{
+  width: 30%;
+}
+.openAiApp__footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.download-button {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: flex-end;
+  text-decoration: none;
+}
 /* MAIN DIV */
 .pet-first-App {
   font-family: 'gothic';
@@ -491,11 +550,11 @@ code {
     background: url(../assets/images/arrow-right.png) no-repeat right;
     background-size: 20px;
 }
-input[type="text"]{
+.inputMail input[type="text"]{
     font-size:24px;
     color: #ebe3cc;
 }
-input:focus {
+.inputMail input:focus {
   border-color: #062d3e
 }
 ::placeholder { 
