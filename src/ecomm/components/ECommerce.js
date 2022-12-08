@@ -3,6 +3,8 @@ import React from "react";
 import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 import Container from '@mui/material/Container';
 import './com-css/header.css'
+import './com-css/shop.css'
+import './com-css/details.css'
 import ItemDetails from "./ItemDetails";
 import Shop from "./pages/shop/Shop";
 import Cart from "./pages/cart/Cart";
@@ -17,7 +19,7 @@ function ECommerce() {
             <Router>
                 <Header/>
                 <Switch>
-                    <Route path="/Home">
+                    <Route exact path="/react-app">
                         <ServiceBanner/>
                         <div className="boxNewProducts">
                             <span>NEW</span>

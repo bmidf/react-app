@@ -10,7 +10,7 @@ const Header = () => {
             <div className="middleHeader">
                 <Link to="/Shop" className="headerText" >SHOP</Link>
                 <p className="headerText">ESSENTIALS</p>
-                <Link to="/Home" className="headerText headerHome"> 
+                <Link exact to="/react-app" className="headerText headerHome"> 
                         <span>Macc<br/></span>
                         <span className="headerHomeSpan">Essentials</span></Link>
                 <p className="headerText">BEST SELLERS</p>

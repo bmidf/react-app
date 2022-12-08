@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -68,7 +68,7 @@ code {
   border-radius: 5px;
   justify-content: flex-end;
   text-decoration: none;
-}
+}*/
 /* MAIN DIV */
 .pet-first-App {
   font-family: 'gothic';
@@ -571,7 +571,7 @@ input:focus::placeholder {
 }
 
 /* BANNER 5 */
-
+/*
 .banner5{
   height: 500px;
   width: 100%;
@@ -661,12 +661,12 @@ label{
   align-items: left;
 }
 
-
+*/
 
 /*===================================================================================================================
 ========================================================MOBILE=======================================================
 =====================================================================================================================*/
-
+/*
 @media screen and (max-width: 1000px) {
   .box1 {
     font-size: 45px;
@@ -827,4 +827,4 @@ label{
     align-items: center;
     font-size: 12px;
   }
-}
+} */
