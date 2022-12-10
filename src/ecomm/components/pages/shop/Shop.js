@@ -1,11 +1,24 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {Col,Accordion,Button } from 'react-bootstrap';
+import {Col,Accordion,Button,DropdownButton,Dropdown } from 'react-bootstrap';
 import Coffee from '../../../assets/images/Coffee.png'
-
+import { Link, useHistory } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 function Shop() {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch('https://api.escuelajs.co/api/v1/products?limit=3&offset=3');
+      const data = await response.json();
+      setItems(data);
+    }
+    fetchData();
+  }, []);
+  const history = useHistory();
     return (
       <Container className="shopAlign">
         <Row>
@@ -55,9 +68,65 @@ function Shop() {
               </Col>
             </Row>
             <Row>
-              <Col><h1>3 of 3</h1></Col>
-              <Col><h1>3 of 3</h1></Col>
-              <Col><h1>3 of 3</h1></Col>
+              <Col xs={2} style={{marginTop: '10px'}}>
+                  <p>9 Products</p>
+              </Col>
+              <Col style={{textAlign: 'right', marginTop: '10px'}}>
+                <DropdownButton title={'Sort'} id={`dropdown-variants-Secondary`}>
+                  <Dropdown.Item eventKey="1">A-Z</Dropdown.Item>
+                  <Dropdown.Item eventKey="2">Z-A</Dropdown.Item>
+                  <Dropdown.Item eventKey="3">Price: Low to High</Dropdown.Item>
+                  <Dropdown.Item eventKey="4">Price: High to Low</Dropdown.Item>
+                </DropdownButton>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className='box-grid'>
+                  {items.map(item => (
+                      <Link key={item.id} to={`/item/${item.id}`} onClick={() => history.push(`/item/${item.id}`)}>
+                            <div className="imageBoxProduct">
+                              <img className="imageProduct" src={item.category.image} alt={item.title} />
+                            </div>
+                            <div className="titleNewProduct">
+                              <a>{item.title}</a>
+                            </div>
+                      </Link>
+                  ))}
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className='box-grid'>
+                  {items.map(item => (
+                      <Link key={item.id} to={`/item/${item.id}`} onClick={() => history.push(`/item/${item.id}`)}>
+                            <div className="imageBoxProduct">
+                              <img className="imageProduct" src={item.category.image} alt={item.title} />
+                            </div>
+                            <div className="titleNewProduct">
+                              <a>{item.title}</a>
+                            </div>
+                      </Link>
+                  ))}
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className='box-grid'>
+                  {items.map(item => (
+                      <Link key={item.id} to={`/item/${item.id}`} onClick={() => history.push(`/item/${item.id}`)}>
+                            <div className="imageBoxProduct">
+                              <img className="imageProduct" src={item.category.image} alt={item.title} />
+                            </div>
+                            <div className="titleNewProduct">
+                              <a>{item.title}</a>
+                            </div>
+                      </Link>
+                  ))}
+                </div>
+              </Col>
             </Row>
           </Col>
         </Row>

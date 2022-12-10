@@ -166,3 +166,8 @@
     width: 100%;
   }
 }
+.justShop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
