@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const OpenAI = () => {
   const [generatedImage, setGeneratedImage] = useState(null);
   const [userInput, setUserInput] = useState("");
-
+//added this can't lie
   const generateImage = async () => {
     const API_KEY = '';
     const response = await fetch(
